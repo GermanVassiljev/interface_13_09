@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace interface_13_09
 {
-    public interface Uksus
+    internal interface IUksus
     {
         int punktideArv();
         string info();

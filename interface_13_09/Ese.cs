@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace interface_13_09
 {
-    internal class Ese
+    internal class Ese : IUksus
     {
         private string nimetus;
         private int punktide_arv;
@@ -22,6 +22,7 @@ namespace interface_13_09
         }
         public string info()
         {
+            Console.WriteLine(nimetus);
             return nimetus;
         }
     }
